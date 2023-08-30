@@ -9,7 +9,7 @@ module.exports = {
     return [
       {
         source: '/:path*',
-        destination: 'https://rpc.itn-1.nibiru.fi/'
+        destination: 'https://rpc.itn-1.nibiru.fi/:path*'
       }
     ]
   }
