@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "dev:node-middleware": "node server.js"
+    "lint": "next lint"
   },
   "dependencies": {
     "@chakra-ui/icons": "2.0.12",
@@ -26,6 +25,7 @@
     "@nibiruchain/nibijs": "^0.21.12",
     "chain-registry": "1.19.0",
     "chakra-react-select": "^4.7.0",
+    "cors": "^2.8.5",
     "framer-motion": "9.0.7",
     "next": "12.2.5",
     "react": "18.2.0",
