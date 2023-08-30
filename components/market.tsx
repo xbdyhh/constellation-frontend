@@ -154,7 +154,7 @@ export const MarketOptionsList = ()=>{
     return(
     <Box>
         <VStack spacing={5}>
-        <Button onClick={handleQueryOwnerList} w="full" justifyContent="center" >Refresh the options you created</Button>
+        <Button onClick={handleQueryOwnerList} w="full" justifyContent="center" >Refresh the options in market</Button>
         {datas?(
             datas.map((data)=>{
                 return(
