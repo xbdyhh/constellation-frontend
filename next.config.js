@@ -17,8 +17,7 @@ const nextConfig = {
     ]
   },
   NODE_ENV: '"production"',
-  API_HOST: '"/backend/"'
-
+  API_HOST: '"/backend"'
   // ↑追加
 }
 

@@ -8,7 +8,7 @@ export const nibiruChian: Chain = {
     "apis": {
       "rpc": [
           {
-              "address": "/backend/",
+              "address": "/backend",
           }
       ],
       "rest": [
