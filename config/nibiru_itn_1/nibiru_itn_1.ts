@@ -8,12 +8,12 @@ export const nibiruChian: Chain = {
     "apis": {
       "rpc": [
           {
-              "address": "/backend",
+              "address": "/backend/",
           }
       ],
       "rest": [
           {
-              "address": "https://lcd.itn-1.nibiru.fi"
+              "address": "/LCD/"
           }
       ],
       "grpc": []
