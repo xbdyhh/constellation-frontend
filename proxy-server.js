@@ -23,10 +23,10 @@ app.use('/submit_pfb', (req, res, next) => {
     const proxy = createProxyMiddleware({
         target: TARGET_SERVER,
         changeOrigin: true,
-        pathRewrite: (path, req) => {
-            return '/submit_pfb';
-        },
-        onProxyReq: (proxyReq) => {
+        pathRewrite: {
+            '^/submit_pfb/': '/', 
+          },
+                onProxyReq: (proxyReq) => {
             proxyReq.removeHeader('origin');
         },
         onProxyRes: (proxyRes) => {
