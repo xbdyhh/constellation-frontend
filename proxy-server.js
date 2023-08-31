@@ -16,17 +16,10 @@ if (!process.env.NODE_SERVER) {
 
 app.use(cors());
 
-app.use('/rpc', (req, res, next) => {
+app.use('/submit_pfb', (req, res, next) => {
     //if sumbiturl is empty, use default server
-    let TARGET_SERVER
-    if (!req.headers['submiturl']) {
-        TARGET_SERVER = process.env.NODE_SERVER ;
-    }
-    else {
-        TARGET_SERVER =  req.headers['submiturl'];
-    }
-
-
+    let TARGET_SERVER = process.env.NODE_SERVER ;
+    
     const proxy = createProxyMiddleware({
         target: TARGET_SERVER,
         changeOrigin: true,

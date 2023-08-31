@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "next lint",
     "proxy": "node proxy-server.js"
-
   },
   "dependencies": {
     "@chakra-ui/icons": "2.0.12",
@@ -28,7 +27,10 @@
     "chain-registry": "1.19.0",
     "chakra-react-select": "^4.7.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "framer-motion": "9.0.7",
+    "http-proxy-middleware": "^2.0.6",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
