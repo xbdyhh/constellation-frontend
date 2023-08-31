@@ -16,9 +16,6 @@ const nextConfig = {
       }
     ]
   },
-  NODE_ENV: '"production"',
-  API_HOST: '"/backend"'
-  // ↑追加
 }
 
 module.exports = nextConfig
